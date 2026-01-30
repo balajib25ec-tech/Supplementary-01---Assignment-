@@ -7,5 +7,6 @@ def is_all_digits(text):
             return False
     return True
 
-test_str = "12345"
+test_str = input("Enter a string: ")
 print(f"Is all digits: {is_all_digits(test_str)}")
+
