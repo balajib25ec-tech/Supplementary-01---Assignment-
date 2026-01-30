@@ -2,6 +2,9 @@
 # Find and fix the error
 
 squares = []
-for i in range(1, 6):
+n = int(input("Enter a number n: "))
+for i in range(1, n + 1):
     squares.append(i * i)
-print(f"Squares: {squares}")
+
+print(f"Squares of first {n} numbers: {squares}")
+

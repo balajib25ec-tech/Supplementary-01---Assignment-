@@ -6,5 +6,7 @@ def area_of_circle(radius):
     area = pi * radius * radius
     return area
 
-r = "5"
-print(f"Area: {area_of_circle(r)}")
+r = input("Enter radius: ")
+r = float(r)  # convert string to float
+print(f"Area of the Circle: {area_of_circle(r)}")
+
